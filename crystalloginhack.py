@@ -6,8 +6,8 @@ import random
 PassNumVar = open("PassNum.txt", "w+")
 Counter = int(PassNumVar.read())
 #login
-Email = "crosen26@csus.org"
-Password = ""
+Email = "xxx"
+Password = "xxx"
 #incognito mode
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--incognito")
@@ -42,7 +42,7 @@ for line in PasswordsArray:
    password = line
    login("https://csus.myschoolapp.com/app#login", "Username", Email, "nextBtn")
    GoogleEmaillogin("identifierNext")
-   GooglePasslogin("password", "TtqU320*", "passwordNext")
+   GooglePasslogin("password", "xxx", "passwordNext")
    Counter = Counter + 1
    PassNumVar.write(str(Counter) + "\n")
    if driver.current_url == "https://csus.myschoolapp.com/app/student#studentmyday/assignment-center":
