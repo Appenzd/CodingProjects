@@ -3,8 +3,8 @@ import time
 import random
 
 #login
-Email = "guido@appenzeller.net"
-Password = "12345"
+Email = "xxx"
+Password = "xxx"
 #incognito mode
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--incognito")
@@ -25,10 +25,5 @@ def login(url,usernameId, username, passwordId, password, loginbutton):
    driver.find_element_by_id(loginbutton).click()
    time.sleep(.1) 
 
-# for line in PasswordsArray:
-# 	if driver.current_url == "https://www.facebook.com":
-# 		exit()
-# 	else:
-# 		Password = line
-login("https://guido.appenzeller.net/wp-admin", "log", Email, "pwd", Password, "wp-submit")	
+login("xxx", "log", Email, "pwd", Password, "xxx")	
 		
