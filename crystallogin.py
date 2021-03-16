@@ -5,8 +5,8 @@ import time
 import random
 
 #login
-Email = "dappenzeller26@csus.org"
-Password = "TtqU320*"
+Email = "xxx"
+Password = "xxx"
 #incognito mode
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--incognito")
