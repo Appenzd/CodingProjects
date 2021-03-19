@@ -21,7 +21,7 @@ def equationFunc(equationID, enterbutton):
     answer = eval(equation)
     for char in str(answer):
    		keyboard.press_and_release(char) 
-    driver.find_element_by_xpath(enterbut3636ton).click()
+    driver.find_element_by_xpath(enterbutton).click()
 
 start("https://www.timestables.com/100-seconds/", "/html/body/div[3]/div/div/div[2]/div/div[1]/div[2]/div[1]/a")
 
