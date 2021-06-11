@@ -2,8 +2,8 @@ from selenium import webdriver
 import time
 
 
-Email = "dappenzeller26@csus.org"
-Password = "TtqU320*"
+Email = "***"
+Password = "***"
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--incognito")
