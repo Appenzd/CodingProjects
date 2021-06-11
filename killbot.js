@@ -1,7 +1,7 @@
 const mineflayer = require('mineflayer')
 const { pathfinder, goals: { GoalFollow } } = require('mineflayer-pathfinder')
 
-const bot = mineflayer.createBot({host: 'localhost', port: 55524, username: 'Bot'})
+const bot = mineflayer.createBot({host: 'localhost', port: ***, username: 'Bot'})
 const mcData = require('minecraft-data')(bot.version)
 foundplayer = false
 bot.loadPlugin(pathfinder)
