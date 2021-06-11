@@ -9,7 +9,7 @@ Password = "***"
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--incognito")
 #prepare for random test
-Passwords = open("100,000Passwords2.txt")
+Passwords = open("100,000Passwords.txt")
 PasswordsArray = []
 for line in Passwords:
     PasswordsArray.append(line)
