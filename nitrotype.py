@@ -5,8 +5,8 @@ import keyboard
 
 x = 0
 
-Username = "debhenbdew"
-Password = "debhenbdew2"
+Username = "***"
+Password = "***"
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--incognito")
