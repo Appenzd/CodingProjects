@@ -8,7 +8,7 @@ Password = "***"
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--incognito")
 
-driver = webdriver.Chrome("/Users/danielappenzeller/dev/coding/webtest/chromedriver", options=chrome_options)
+driver = webdriver.Chrome("***", options=chrome_options)
 
 def login(url,usernameID, username, loginbutton):
    driver.get(url)
